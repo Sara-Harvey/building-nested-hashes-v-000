@@ -21,7 +21,11 @@ def bonus
   }
 
   #code your solution here:
+epic_tragedy = "Montague" << "dead"
 
+jon_snow = contacts["Jon Snow"]
+jons_fav_ice_cream = jon_snow[:favorite_ice_cream_flavors]
+jons_fav_ice_cream << "mint chip"
   
 
   #Don't touch the following line! The `bonus` method must return our newly modified epic tragedy hash
